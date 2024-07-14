@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		571D0B812C4402C000AA1178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D0B802C4402C000AA1178 /* AppDelegate.swift */; };
-		571D0B832C4402C000AA1178 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D0B822C4402C000AA1178 /* SceneDelegate.swift */; };
 		571D0B852C4402C000AA1178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D0B842C4402C000AA1178 /* ViewController.swift */; };
-		571D0B882C4402C000AA1178 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 571D0B872C4402C000AA1178 /* Base */; };
 		571D0B8A2C4402C200AA1178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571D0B892C4402C200AA1178 /* Assets.xcassets */; };
 		571D0B8D2C4402C200AA1178 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 571D0B8C2C4402C200AA1178 /* Base */; };
 		571D0B982C4402C200AA1178 /* bet_raveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D0B972C4402C200AA1178 /* bet_raveTests.swift */; };
@@ -38,9 +36,7 @@
 /* Begin PBXFileReference section */
 		571D0B7D2C4402C000AA1178 /* bet-rave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bet-rave.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		571D0B802C4402C000AA1178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		571D0B822C4402C000AA1178 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		571D0B842C4402C000AA1178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		571D0B872C4402C000AA1178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		571D0B892C4402C200AA1178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		571D0B8C2C4402C200AA1178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		571D0B8E2C4402C200AA1178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,9 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				571D0B802C4402C000AA1178 /* AppDelegate.swift */,
-				571D0B822C4402C000AA1178 /* SceneDelegate.swift */,
 				571D0B842C4402C000AA1178 /* ViewController.swift */,
-				571D0B862C4402C000AA1178 /* Main.storyboard */,
 				571D0B892C4402C200AA1178 /* Assets.xcassets */,
 				571D0B8B2C4402C200AA1178 /* LaunchScreen.storyboard */,
 				571D0B8E2C4402C200AA1178 /* Info.plist */,
@@ -233,7 +227,6 @@
 			files = (
 				571D0B8A2C4402C200AA1178 /* Assets.xcassets in Resources */,
 				571D0B8D2C4402C200AA1178 /* Base in Resources */,
-				571D0B882C4402C000AA1178 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +253,6 @@
 			files = (
 				571D0B852C4402C000AA1178 /* ViewController.swift in Sources */,
 				571D0B812C4402C000AA1178 /* AppDelegate.swift in Sources */,
-				571D0B832C4402C000AA1178 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +289,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		571D0B862C4402C000AA1178 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				571D0B872C4402C000AA1178 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		571D0B8B2C4402C200AA1178 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +431,6 @@
 				INFOPLIST_FILE = "bet-rave/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +458,6 @@
 				INFOPLIST_FILE = "bet-rave/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
