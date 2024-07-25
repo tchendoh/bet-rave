@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		577086E32C52E54F0096946E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577086E22C52E54F0096946E /* AppDelegate.swift */; };
+		5770871B2C52E8660096946E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577087182C52E8650096946E /* Assets.xcassets */; };
+		5770871C2C52E8660096946E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577087192C52E8660096946E /* ViewController.swift */; };
+		5770871D2C52E8660096946E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5770871A2C52E8660096946E /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		577086F62C52E5530096946E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577086D72C52E54F0096946E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577086DE2C52E54F0096946E;
+			remoteInfo = "bet-rave";
+		};
+		577087002C52E5530096946E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577086D72C52E54F0096946E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577086DE2C52E54F0096946E;
+			remoteInfo = "bet-rave";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		577086DF2C52E54F0096946E /* bet-rave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bet-rave.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		577086E22C52E54F0096946E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		577086F52C52E5530096946E /* bet-raveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bet-raveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		577086FF2C52E5530096946E /* bet-raveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bet-raveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		577087182C52E8650096946E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		577087192C52E8660096946E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5770871A2C52E8660096946E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		577086DC2C52E54F0096946E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577086F22C52E5530096946E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577086FC2C52E5530096946E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		577086D62C52E54F0096946E = {
+			isa = PBXGroup;
+			children = (
+				577086E12C52E54F0096946E /* bet-rave */,
+				577086E02C52E54F0096946E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		577086E02C52E54F0096946E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				577086DF2C52E54F0096946E /* bet-rave.app */,
+				577086F52C52E5530096946E /* bet-raveTests.xctest */,
+				577086FF2C52E5530096946E /* bet-raveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		577086E12C52E54F0096946E /* bet-rave */ = {
+			isa = PBXGroup;
+			children = (
+				577087192C52E8660096946E /* ViewController.swift */,
+				577086E22C52E54F0096946E /* AppDelegate.swift */,
+				577087182C52E8650096946E /* Assets.xcassets */,
+				5770871A2C52E8660096946E /* Info.plist */,
+			);
+			path = "bet-rave";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		577086DE2C52E54F0096946E /* bet-rave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577087092C52E5530096946E /* Build configuration list for PBXNativeTarget "bet-rave" */;
+			buildPhases = (
+				577086DB2C52E54F0096946E /* Sources */,
+				577086DC2C52E54F0096946E /* Frameworks */,
+				577086DD2C52E54F0096946E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bet-rave";
+			productName = "bet-rave";
+			productReference = 577086DF2C52E54F0096946E /* bet-rave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		577086F42C52E5530096946E /* bet-raveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5770870C2C52E5530096946E /* Build configuration list for PBXNativeTarget "bet-raveTests" */;
+			buildPhases = (
+				577086F12C52E5530096946E /* Sources */,
+				577086F22C52E5530096946E /* Frameworks */,
+				577086F32C52E5530096946E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				577086F72C52E5530096946E /* PBXTargetDependency */,
+			);
+			name = "bet-raveTests";
+			productName = "bet-raveTests";
+			productReference = 577086F52C52E5530096946E /* bet-raveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		577086FE2C52E5530096946E /* bet-raveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5770870F2C52E5530096946E /* Build configuration list for PBXNativeTarget "bet-raveUITests" */;
+			buildPhases = (
+				577086FB2C52E5530096946E /* Sources */,
+				577086FC2C52E5530096946E /* Frameworks */,
+				577086FD2C52E5530096946E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				577087012C52E5530096946E /* PBXTargetDependency */,
+			);
+			name = "bet-raveUITests";
+			productName = "bet-raveUITests";
+			productReference = 577086FF2C52E5530096946E /* bet-raveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		577086D72C52E54F0096946E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					577086DE2C52E54F0096946E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					577086F42C52E5530096946E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 577086DE2C52E54F0096946E;
+					};
+					577086FE2C52E5530096946E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 577086DE2C52E54F0096946E;
+					};
+				};
+			};
+			buildConfigurationList = 577086DA2C52E54F0096946E /* Build configuration list for PBXProject "bet-rave" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 577086D62C52E54F0096946E;
+			productRefGroup = 577086E02C52E54F0096946E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				577086DE2C52E54F0096946E /* bet-rave */,
+				577086F42C52E5530096946E /* bet-raveTests */,
+				577086FE2C52E5530096946E /* bet-raveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		577086DD2C52E54F0096946E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5770871B2C52E8660096946E /* Assets.xcassets in Resources */,
+				5770871D2C52E8660096946E /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577086F32C52E5530096946E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577086FD2C52E5530096946E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		577086DB2C52E54F0096946E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5770871C2C52E8660096946E /* ViewController.swift in Sources */,
+				577086E32C52E54F0096946E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577086F12C52E5530096946E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577086FB2C52E5530096946E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		577086F72C52E5530096946E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 577086DE2C52E54F0096946E /* bet-rave */;
+			targetProxy = 577086F62C52E5530096946E /* PBXContainerItemProxy */;
+		};
+		577087012C52E5530096946E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 577086DE2C52E54F0096946E /* bet-rave */;
+			targetProxy = 577087002C52E5530096946E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		577087072C52E5530096946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		577087082C52E5530096946E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5770870A2C52E5530096946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8DKX94TR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "bet-rave/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chummey.bet-rave";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5770870B2C52E5530096946E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8DKX94TR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "bet-rave/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chummey.bet-rave";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5770870D2C52E5530096946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8DKX94TR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chummey.bet-raveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bet-rave.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bet-rave";
+			};
+			name = Debug;
+		};
+		5770870E2C52E5530096946E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8DKX94TR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chummey.bet-raveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bet-rave.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bet-rave";
+			};
+			name = Release;
+		};
+		577087102C52E5530096946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8DKX94TR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chummey.bet-raveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bet-rave";
+			};
+			name = Debug;
+		};
+		577087112C52E5530096946E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8DKX94TR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chummey.bet-raveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bet-rave";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		577086DA2C52E54F0096946E /* Build configuration list for PBXProject "bet-rave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577087072C52E5530096946E /* Debug */,
+				577087082C52E5530096946E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577087092C52E5530096946E /* Build configuration list for PBXNativeTarget "bet-rave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5770870A2C52E5530096946E /* Debug */,
+				5770870B2C52E5530096946E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5770870C2C52E5530096946E /* Build configuration list for PBXNativeTarget "bet-raveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5770870D2C52E5530096946E /* Debug */,
+				5770870E2C52E5530096946E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5770870F2C52E5530096946E /* Build configuration list for PBXNativeTarget "bet-raveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577087102C52E5530096946E /* Debug */,
+				577087112C52E5530096946E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 577086D72C52E54F0096946E /* Project object */;
+}
