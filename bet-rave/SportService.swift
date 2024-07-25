@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum BetsServiceError: Error {
+enum SportServiceError: Error {
     case urlError
     case requestError
     case jsonDecodingError
@@ -17,30 +17,40 @@ enum BetsServiceError: Error {
 
 class SportService {
     
-    var apiKey: String {
-        ProcessInfo.processInfo.environment["API_KEY"]!
-    }
+/// https://api-sports.io/documentation/mma/v1#tag/Fighters
     
-    func getMmaOdds() {
-        var request = URLRequest(url: URL(string: "https://v1.mma.api-sports.io/fights")!,timeoutInterval: Double.infinity)
-        request.addValue("XxXxXxXxXxXxXxXxXxXxXxXx", forHTTPHeaderField: "x-rapidapi-key")
+    func getFights() async throws -> [Fight] {
+        
+        var urlComponents = URLComponents(string: "https://v1.mma.api-sports.io/fights")!
+        urlComponents.queryItems = [URLQueryItem(name: "date", value: "2024-07-27"),
+                                    URLQueryItem(name: "timezone", value: "America/Toronto")]
+        
+        guard let url = urlComponents.url else { throw SportServiceError.urlError }
+        
+        var request = URLRequest(url: url)
+        request.addValue(ProcessInfo.processInfo.environment["API_KEY"]!, forHTTPHeaderField: "x-rapidapi-key")
         request.addValue("v1.mma.api-sports.io", forHTTPHeaderField: "x-rapidapi-host")
         
         request.httpMethod = "GET"
 
-    }
-    
-    let task = URLSession.shared.dataTask(with: request) { data, response, error in
-        guard let data = data else {
-            print(String(describing: error))
-            semaphore.signal()
-            return
+        do {
+            let (data, response) = try await URLSession.shared.data(for: request)
+            
+            guard (response as? HTTPURLResponse)?.statusCode == 200 else {
+                throw SportServiceError.invalidStatusCode
+            }
+            
+            guard let decodedFightResponse = try? JSONDecoder().decode(FightResponse.self, from: data) else {
+                throw SportServiceError.jsonDecodingError
+            }
+            
+            return decodedFightResponse.response
         }
-        print(String(data: data, encoding: .utf8)!)
-        semaphore.signal()
+        catch {
+            print(error.localizedDescription)
+            throw(error)
+        }
     }
     
-    task.resume()
-    semaphore.wait()
     
 }
