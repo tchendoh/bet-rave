@@ -86,8 +86,8 @@
 		577086E12C52E54F0096946E /* bet-rave */ = {
 			isa = PBXGroup;
 			children = (
-				577087192C52E8660096946E /* ViewController.swift */,
 				577086E22C52E54F0096946E /* AppDelegate.swift */,
+				577087192C52E8660096946E /* ViewController.swift */,
 				577087182C52E8650096946E /* Assets.xcassets */,
 				5770871A2C52E8660096946E /* Info.plist */,
 			);
