@@ -10,7 +10,6 @@
 		577086E32C52E54F0096946E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577086E22C52E54F0096946E /* AppDelegate.swift */; };
 		5770871B2C52E8660096946E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577087182C52E8650096946E /* Assets.xcassets */; };
 		5770871C2C52E8660096946E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577087192C52E8660096946E /* ViewController.swift */; };
-		5770871D2C52E8660096946E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5770871A2C52E8660096946E /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +30,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		570E7FAB2C541230008C1578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		577086DF2C52E54F0096946E /* bet-rave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bet-rave.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		577086E22C52E54F0096946E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		577086F52C52E5530096946E /* bet-raveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bet-raveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		577086FF2C52E5530096946E /* bet-raveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bet-raveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		577087182C52E8650096946E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		577087192C52E8660096946E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5770871A2C52E8660096946E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +88,7 @@
 				577086E22C52E54F0096946E /* AppDelegate.swift */,
 				577087192C52E8660096946E /* ViewController.swift */,
 				577087182C52E8650096946E /* Assets.xcassets */,
-				5770871A2C52E8660096946E /* Info.plist */,
+				570E7FAB2C541230008C1578 /* Info.plist */,
 			);
 			path = "bet-rave";
 			sourceTree = "<group>";
@@ -199,7 +198,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5770871B2C52E8660096946E /* Assets.xcassets in Resources */,
-				5770871D2C52E8660096946E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
