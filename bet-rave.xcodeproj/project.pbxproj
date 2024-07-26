@@ -10,6 +10,8 @@
 		577086E32C52E54F0096946E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577086E22C52E54F0096946E /* AppDelegate.swift */; };
 		5770871B2C52E8660096946E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577087182C52E8650096946E /* Assets.xcassets */; };
 		5770871C2C52E8660096946E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577087192C52E8660096946E /* ViewController.swift */; };
+		578E42232C543BA80002E12C /* SportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E42222C543BA80002E12C /* SportService.swift */; };
+		578E42252C543BB50002E12C /* FightResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E42242C543BB50002E12C /* FightResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		577086FF2C52E5530096946E /* bet-raveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bet-raveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		577087182C52E8650096946E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		577087192C52E8660096946E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		578E42222C543BA80002E12C /* SportService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportService.swift; sourceTree = "<group>"; };
+		578E42242C543BB50002E12C /* FightResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FightResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +90,21 @@
 			isa = PBXGroup;
 			children = (
 				577086E22C52E54F0096946E /* AppDelegate.swift */,
+				578E42262C543BC10002E12C /* Models */,
 				577087192C52E8660096946E /* ViewController.swift */,
+				578E42222C543BA80002E12C /* SportService.swift */,
 				577087182C52E8650096946E /* Assets.xcassets */,
 				570E7FAB2C541230008C1578 /* Info.plist */,
 			);
 			path = "bet-rave";
+			sourceTree = "<group>";
+		};
+		578E42262C543BC10002E12C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				578E42242C543BB50002E12C /* FightResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,8 +236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578E42232C543BA80002E12C /* SportService.swift in Sources */,
 				5770871C2C52E8660096946E /* ViewController.swift in Sources */,
 				577086E32C52E54F0096946E /* AppDelegate.swift in Sources */,
+				578E42252C543BB50002E12C /* FightResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
