@@ -10,6 +10,7 @@ import Foundation
 enum SportServiceError: Error {
     case urlError
     case requestError
+    case noApiKey
     case jsonDecodingError
     case fetchingDataError
     case invalidStatusCode
@@ -28,7 +29,10 @@ class SportService {
         guard let url = urlComponents.url else { throw SportServiceError.urlError }
         
         var request = URLRequest(url: url)
-        request.addValue(ProcessInfo.processInfo.environment["API_KEY"]!, forHTTPHeaderField: "x-rapidapi-key")
+        guard let apiKey = ProcessInfo.processInfo.environment["API_KEY"] else {
+            throw SportServiceError.noApiKey
+        }
+        request.addValue(apiKey, forHTTPHeaderField: "x-rapidapi-key")
         request.addValue("v1.mma.api-sports.io", forHTTPHeaderField: "x-rapidapi-host")
         
         request.httpMethod = "GET"
@@ -51,6 +55,4 @@ class SportService {
             throw(error)
         }
     }
-    
-    
 }
