@@ -31,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		570E7FAB2C541230008C1578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572EA15E2C58105A00E0D236 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		577086DF2C52E54F0096946E /* bet-rave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bet-rave.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		577086E22C52E54F0096946E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		577086F52C52E5530096946E /* bet-raveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bet-raveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +90,7 @@
 				577087192C52E8660096946E /* ViewController.swift */,
 				577087182C52E8650096946E /* Assets.xcassets */,
 				570E7FAB2C541230008C1578 /* Info.plist */,
+				572EA15E2C58105A00E0D236 /* .swiftlint.yml */,
 			);
 			path = "bet-rave";
 			sourceTree = "<group>";
