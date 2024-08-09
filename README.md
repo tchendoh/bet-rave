@@ -1,2 +1,2 @@
-# bet-rave
-Demo app about betting.
+# SaintM
+Demo app about Montréal metro status.
