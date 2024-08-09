@@ -10,7 +10,7 @@
 		574872512C60071F00BE263F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574872502C60071F00BE263F /* SceneDelegate.swift */; };
 		577086E32C52E54F0096946E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577086E22C52E54F0096946E /* AppDelegate.swift */; };
 		5770871B2C52E8660096946E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577087182C52E8650096946E /* Assets.xcassets */; };
-		5770871C2C52E8660096946E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577087192C52E8660096946E /* ViewController.swift */; };
+		5770871C2C52E8660096946E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577087192C52E8660096946E /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 		577086F52C52E5530096946E /* bet-raveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bet-raveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		577086FF2C52E5530096946E /* bet-raveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bet-raveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		577087182C52E8650096946E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		577087192C52E8660096946E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		577087192C52E8660096946E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				577086E22C52E54F0096946E /* AppDelegate.swift */,
-				577087192C52E8660096946E /* ViewController.swift */,
+				577087192C52E8660096946E /* MainViewController.swift */,
 				574872502C60071F00BE263F /* SceneDelegate.swift */,
 				577087182C52E8650096946E /* Assets.xcassets */,
 				5748724E2C60071700BE263F /* Info.plist */,
@@ -225,7 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5770871C2C52E8660096946E /* ViewController.swift in Sources */,
+				5770871C2C52E8660096946E /* MainViewController.swift in Sources */,
 				577086E32C52E54F0096946E /* AppDelegate.swift in Sources */,
 				574872512C60071F00BE263F /* SceneDelegate.swift in Sources */,
 			);
